@@ -8,7 +8,7 @@ function strLowerCased(str){
 }
 function strReversed(str){
     let result = "";
-    // Start at the end of the string with condition i bigger or equal to zero and go one backwards
+    // Start at the end of the string with condition is bigger or equal to zero and go one backwards
     for (let i = str.length -1; i  >= 0; i--){
         result += str[i];
     }
